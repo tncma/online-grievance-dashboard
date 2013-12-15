@@ -1,5 +1,19 @@
 online-grievance-dashboard
 ==========================
+
+Team Name: Cognizant-Pirates
+Team Members: Neel,Madhusudhan,Yogamani Balusamy,Madhana sundar,Badri Narayanan
+
+Technologies Used:
+
+Android
+Java/J2EE
+Rest services
+Responsive UI
+Phonegap
+IOS
+
+
 Current system working based on the mentioned options
 * SMS based
 * mobile no based
