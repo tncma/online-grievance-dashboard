@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="DynamicRouting"
+		transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+			<class>com.cognizant.cabbooking.entities.Shifts</class>
+			<class>com.cognizant.cabbooking.entities.Bookings</class>
+			<class>com.cognizant.cabbooking.entities.Cab</class>
+			<class>com.cognizant.cabbooking.entities.DriverDetails</class>
+			<class>com.cognizant.cabbooking.entities.Locations</class>
+			<class>com.cognizant.cabbooking.entities.Associates</class>
+			<class>com.cognizant.cabbooking.entities.GoogleRoutes</class>
+			<class>com.cognizant.cabbooking.entities.BusinessRules</class>
+			<class>com.cognizant.cabbooking.entities.BusinessRulesAudit</class>
+			<class>com.cognizant.cabbooking.entities.BusinessRuleValues</class>
+			<class>com.cognizant.cabbooking.entities.BookingAudit</class>
+			<class>com.cognizant.cabbooking.entities.Route</class>
+			<class>com.cognizant.cabbooking.entities.Trip</class>
+			<class>com.cognizant.cabbooking.entities.Users</class>
+			<class>com.cognizant.cabbooking.entities.UserRoles</class>
+			<class>com.cognizant.cabbooking.entities.Accounts</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/gts" />
+			<property name="javax.persistence.jdbc.password" value="opengts" />
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.user" value="gts" />
+		</properties>
+	</persistence-unit>
+</persistence>
